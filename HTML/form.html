@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forms</title>
+  </head>
+  <body>
+    <h3>Forms</h3>
+    <form action="/contact-me.php">
+      <label for="uname">Username :</label>
+      <input type="text" id="uname" placeholder="email" required="true" /><br />
+
+      <label for="user_password">Password :</label>
+      <input type="password" id="user_password" /><br />
+      <input type="submit" /><br />
+
+      <!-- date attribute -->
+       <h3>Date</h3>
+      <label for="date">Date :</label>
+      <input type="date" /><br />
+
+      <!-- file attribue  -->
+       <h3>File</h3>
+      <label for="">Add File :</label>
+      <input type="file" /><br />
+
+      <!-- color attribue  -->
+       <h3>Color</h3>
+      <label for="color">Color Picker :</label>
+      <input type="color" /><br />
+
+      <!-- range attribute  -->
+       <h3>Range</h3>
+      <label for="range">Select Range :</label>
+      <input type="range" /><br />
+
+      <!-- button  -->
+       <h3>Button</h3>
+      <input type="button" value="save" /><br />
+      <input type="submit" /><br />
+
+      <!-- radio button  -->
+      <h3>Radio</h3>
+      <input type="radio" id="male" name="gender" />
+      <label for="male">Male</label>
+
+      <input type="radio" id="female" name="gender" />
+      <label for="female">Female</label>
+
+      <input type="radio" id="Other" name="gender" />
+      <label for="Other">Other</label>
+
+      <h3>Checkbox</h3>
+      <label for="c">C</label>
+      <input type="checkbox" name="lang" id="c" value="c"><br>
+
+      <label for="java">Java</label>
+      <input type="checkbox" name="lang" id="java" value="java"><br>
+
+      <label for="Angular">Angular</label>
+      <input type="checkbox" name="lang" id="Angular" value="Angular">
+
+      <h3>Select</h3>
+      <label for="fruits">Select fruits : </label>
+      <select name="fruits" id="fruits">
+        <option value="apple">Apple</option>
+        <option value="banana">Banana</option>
+        <option value="orange">Orange</option>
+      </select> <br>
+
+      <h3>Text Area</h3>
+      <textarea rows="4" cols="50"></textarea>
+
+      
+  </body>
+</html>
